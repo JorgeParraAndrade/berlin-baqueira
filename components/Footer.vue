@@ -40,4 +40,19 @@
     background-color: #333333;
     color: #ffffff;
   }
+
+  .deck{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .copy-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 </style>
