@@ -45,7 +45,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding: 158px 0;
+
+    .contact-card{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+
+      img{
+        height: 62px;
+        width: auto;
+        margin-bottom: 48px;
+      }
+
+      p{
+        line-height: 35px;
+      }
+
+    }
   }
 
   .copy-box{
@@ -53,6 +74,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    img{
+      margin-bottom: 13px;
+    }
+
+    p{
+      font-size: 10px;
+      margin-bottom: 30px;
+    }
   }
 
 </style>
