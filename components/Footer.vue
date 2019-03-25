@@ -81,7 +81,7 @@
 
     p{
       font-size: 10px;
-      margin-bottom: 30px;
+      margin-bottom: 30px; 
     }
   }
 
