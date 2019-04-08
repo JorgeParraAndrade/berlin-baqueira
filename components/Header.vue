@@ -25,7 +25,7 @@
     justify-content: center;
 
     .center-box{
-      font-family: 'Roboto', sans-serif;
+      font-family: 'roboto-black', sans-serif;
       font-size: 60px;
       color:#333333;
       font-weight: 300;

@@ -1,0 +1,52 @@
+<template>
+  <div class="model-card" :style="`background-image: url('${image}');`">
+    <img :src="icon1" :alt="title">
+    <img  class="number" :src="icon2" :alt="title">
+    <h3>{{title}}</h3>
+    <p v-html="cont"></p>
+  </div>
+</template>
+
+<script>
+export default {
+  props:['image','icon1','icon2','title','cont']
+
+}
+</script>
+
+<style lang="scss" scoped>
+
+  .model-card{
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3{
+      font-family: 'roboto-black',sans-serif;
+      font-size: 19px;
+      color: #333333;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 10px;
+      padding: 0 20px;
+    }
+
+    p{
+      font-family: 'roboto-regular',sans-serif;
+      font-size: 19px;
+      color: #707070;
+      line-height: 1.6;
+      padding: 0 20px;      
+    }
+
+    .number{
+      margin: 20px 0 15px;
+    }
+  }
+
+</style>

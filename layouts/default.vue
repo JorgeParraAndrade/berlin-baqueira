@@ -6,8 +6,23 @@
 
 <style>
 
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('~assets/fonts/roboto-regular.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-black';
+  src: url('~assets/fonts/roboto-black.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-medium';
+  src: url('~assets/fonts/roboto-medium.ttf');
+}
+
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -25,6 +40,7 @@ html {
 }
 
 .btn-primary{
+  font-family: 'roboto-black', sans-serif;
   font-size: 19px;
   padding: 15px 30px;
   background-color: #FC3A2C;

@@ -71,13 +71,13 @@
 				list-style: none;
 
 				li{
-					margin-right: 40px;
+					margin-right: 30px;
 					font-size: 18px;
 					
 					a{
 						color: inherit;
 						text-decoration: none;
-						font-weight: 200;
+						font-weight: 400;
 					}
 
 					&:last-of-type{
