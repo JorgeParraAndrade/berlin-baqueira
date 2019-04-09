@@ -1,10 +1,10 @@
 <template>
-  <section class="site">
-    <menu-bar/>
+  <section id="top" class="site">
+    <menu-bar />
     <header-comp/>
 
     <!-- First Section -->
-    <h2>Soluciones por aire, mar y tierra</h2>
+    <h2 id="nosotros">Soluciones por aire, mar y tierra</h2>
     <section class="cont-1">
       <div class="sidea">
         <p>
@@ -33,12 +33,12 @@
 
       <div class="subcont-1">
         <mini-card
-          image="./Grupo 4.png"
+          image="./back2.png"
           title="Misión"
           cont="Creamos y ejecutamos las mejores soluciones para los retos logísticos y financieros del empresariado venezolano"
           />
         <mini-card
-          image="./Grupo 36.png"
+          image="./back2.png"
           title="Valores"
           cont="Honestidad <br> Consistencia <br> Eficiencia"
           />
@@ -46,18 +46,18 @@
 
       <div class="subcont-2">
         <mini-card
-          image="./Grupo 34.png"
+          image="./back2.png"
           title="Visión"
           cont="Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos."
           />
       </div>
 
-      <img class="separator" src="../assets/img/separator.png" alt="separator">
+      <img class="separator" src="../assets/img/back1.png" alt="separator">
 
     </section> 
 
     <!-- Third section -->
-    <h2>Empresas</h2>
+    <h2 id="empresas">Empresas</h2>
     <section class="cont-3">
 
       <div class="subcont-h">
@@ -84,23 +84,23 @@
           cont="Régimen 4 y 7 aprobados para la <br> importación, almacenamiento y <br> distribución de materiales químicos <br> restringidos Galpón habilitado para el <br> almacenamiento de químicos restringidos."
           />
       </div>
-      <img class="separator" src="../assets/img/separator.png" alt="separator">
+      <img class="separator" src="../assets/img/back1.png" alt="separator">
     </section>
 
     <!-- Fourth section -->
-    <h2>Empresas</h2>
+    <h2 id="modelo">Modelo</h2>
     <section class="cont-4">
 
       <div class="subcont-a">
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./hand.png"
           icon2="./1.png"
           title="El Cliente"
           cont="Solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
           />
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./list.png"
           icon2="./2.png"
           title="Recibida"
@@ -110,14 +110,14 @@
 
       <div class="subcont-b">
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./cycle.png"
           icon2="./3.png"
           title="El Cliente"
           cont="Revisa la estructura de costos en sus diferentes departamentos:- Gerencia - Finanzas - Auditoría"
           />
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./gear.png"
           icon2="./4.png"
           title="El Cliente"
@@ -127,14 +127,14 @@
 
       <div class="subcont-a">
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./ship.png"
           icon2="./5.png"
           title="El Grupo"
           cont="Realiza la importación y despacha en planta"
           />
         <model-card 
-          image="./Grupo 4.png"
+          image="./back2.png"
           icon1="./money.png"
           icon2="./6.png"
           title="El Cliente"
@@ -142,7 +142,7 @@
           />
       </div>
 
-      <img class="separator-2" src="../assets/img/separator.png" alt="separator">
+      <img class="separator-2" src="../assets/img/back1.png" alt="separator">
 
     </section>
 
@@ -166,7 +166,7 @@
     </section>
 
     <!-- Sixth sextion -->
-    <section class="cont-6">
+    <section id="proyectos" class="cont-6">
       <h2 style="margin:80px 0 50px;;">Clientes & Afiliados</h2>
       <div class="img-cont">
         <img src="../assets/img/logo1.png" alt="clientes-Afiliados">

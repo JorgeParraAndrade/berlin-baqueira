@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div id="contacto" class="footer">
 
     <div class="deck">
       <div class="contact-card">
@@ -14,14 +14,14 @@
       <div class="contact-card">
         <img src="../assets/img/phone-w.png" alt="Ubicación">
         <p>
-          +58 212 959 3353
+          <a href="tel:+582129593353">+58 212 959 3353</a>
         </p>
       </div>
 
       <div class="contact-card">
         <img src="../assets/img/mail.png" alt="Ubicación">
         <p>
-          comercial@berlinbaqueira.com
+          <a href="mailto:comercial@berlinbaqueira.com">comercial@berlinbaqueira.com</a>
         </p>
       </div>
     </div>
@@ -64,6 +64,10 @@
 
       p{
         line-height: 35px;
+        a{
+          color:inherit;
+          text-decoration: none;
+        }
       }
 
     }
