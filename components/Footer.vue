@@ -48,6 +48,11 @@
     align-items: flex-start;
     padding: 158px 0;
 
+    @media (max-width:1080px){
+      flex-direction: column;
+      align-items: center;
+    }
+
     .contact-card{
 
       display: flex;

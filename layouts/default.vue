@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 
 @font-face {
   font-family: 'roboto-regular';
@@ -47,6 +47,12 @@ html {
   border: none;
   border-radius: 25px;
   color: #ffffff;
+
+  @media (max-width: 1080px){
+    margin-top: 80px;
+    font-size: 12px;
+    padding: 13px 60px;
+  }
 }
 
 </style>

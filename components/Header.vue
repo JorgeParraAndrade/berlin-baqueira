@@ -24,6 +24,13 @@
     align-items: flex-start;
     justify-content: center;
 
+    @media (max-width:1080px){
+      align-content: center;
+      justify-content: center;
+      height: 520px;
+      margin-top: 81px;
+    }
+
     .center-box{
       font-family: 'roboto-black', sans-serif;
       font-size: 60px;
@@ -32,6 +39,13 @@
       width: 100%;
       margin: 0 auto;
       padding-left: 200px;
+
+      @media (max-width:1080px){
+        font-size: 35px;
+        padding: 0;
+        text-align: center;
+        
+      }
     }
 
   }

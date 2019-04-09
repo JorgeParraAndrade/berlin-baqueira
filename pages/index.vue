@@ -33,12 +33,12 @@
 
       <div class="subcont-1">
         <mini-card
-          image="./back2.png"
+          image="./back4.png"
           title="Misión"
           cont="Creamos y ejecutamos las mejores soluciones para los retos logísticos y financieros del empresariado venezolano"
           />
         <mini-card
-          image="./back2.png"
+          image="./back4.png"
           title="Valores"
           cont="Honestidad <br> Consistencia <br> Eficiencia"
           />
@@ -46,7 +46,7 @@
 
       <div class="subcont-2">
         <mini-card
-          image="./back2.png"
+          image="./back4.png"
           title="Visión"
           cont="Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos."
           />
@@ -93,14 +93,14 @@
 
       <div class="subcont-a">
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./hand.png"
           icon2="./1.png"
           title="El Cliente"
           cont="Solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
           />
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./list.png"
           icon2="./2.png"
           title="Recibida"
@@ -110,14 +110,14 @@
 
       <div class="subcont-b">
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./cycle.png"
           icon2="./3.png"
           title="El Cliente"
           cont="Revisa la estructura de costos en sus diferentes departamentos:- Gerencia - Finanzas - Auditoría"
           />
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./gear.png"
           icon2="./4.png"
           title="El Cliente"
@@ -127,14 +127,14 @@
 
       <div class="subcont-a">
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./ship.png"
           icon2="./5.png"
           title="El Grupo"
           cont="Realiza la importación y despacha en planta"
           />
         <model-card 
-          image="./back2.png"
+          image="./back4.png"
           icon1="./money.png"
           icon2="./6.png"
           title="El Cliente"
@@ -231,11 +231,20 @@ export default {
     color: #333333;
     text-align: center;
     margin: 100px 0;
+
+    @media (max-width:1080px){
+      font-size: 21px;
+      margin: 25px 0;
+    }
   }
 
   .separator{
     width: 100%;
     margin-bottom: -290px;
+
+    @media (max-width: 1080px){
+      margin: 10px 0;
+    }
   }
 
   .separator-2{
@@ -245,6 +254,10 @@ export default {
   .cont-1{
     display:flex;
     flex-direction: row;
+
+    @media (max-width:1080px){
+      flex-direction: column-reverse;
+    }
 
     .sidea{
       p{
@@ -257,6 +270,30 @@ export default {
         b{
           color: #000000;
           font-weight: inherit;
+        }
+      }
+
+      @media (max-width:1080px){
+        margin-top: 35px;
+        p{
+          font-size: 13px;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    .sideb{
+
+      @media (max-width: 1080px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+          max-width: 328px;
+          margin: 0 auto;
         }
       }
     }
@@ -272,6 +309,12 @@ export default {
       flex-direction: row;
       justify-content: space-around;
       margin-bottom: 50px;
+
+      @media (max-width:1080px){
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
     }
 
     .subcont-2{
@@ -290,6 +333,11 @@ export default {
       align-items: baseline;
       justify-content: space-around;
       margin-bottom: 100px;
+
+      @media (max-width: 1080px){
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     .subcont-w{
@@ -307,6 +355,11 @@ export default {
       flex-direction: row;
       justify-content: space-around;
       margin-bottom: 80px;
+
+      @media (max-width: 1080px){
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     .subcont-b{
@@ -314,6 +367,11 @@ export default {
       flex-direction: row;
       justify-content: center;
       margin-bottom: 80px;
+
+      @media (max-width: 1080px){
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
   }
@@ -333,14 +391,26 @@ export default {
       margin-right: auto;
       margin-left: auto;
 
+      @media (max-width:1080px){
+        flex-direction: column;
+        align-items: center;
+      }
+
       h2{
         font-family: 'roboto-black',sans-serif;
         font-size: 76px;
+        
       }
 
       p{
         font-family: 'roboto-medium', sans-serif;
         font-size: 27px;
+
+        @media (max-width:1080px){
+          font-size: 25px;
+          text-align: center;
+          margin-bottom: 50px;
+        }
       }
     }
 
@@ -349,6 +419,11 @@ export default {
       margin: 0;
       font-family: 'roboto-black',sans-serif;
       font-size: 52px;
+
+      @media (max-width: 1080px){
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
     }
   }
 
@@ -359,6 +434,14 @@ export default {
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
+
+      @media (max-width:1080px){
+        flex-direction: column;
+        align-items: center;
+        .img-cont{
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -366,6 +449,11 @@ export default {
     display:flex;
     flex-direction: row;
     margin-bottom: 80px;
+
+    @media (max-width:1080px){
+      flex-direction: column-reverse;
+      align-items: center;
+    }
 
     .sidea{
       p{
@@ -381,8 +469,34 @@ export default {
           color: #000000;
           font-weight: inherit;
         }
+
+      }
+      
+      @media (max-width:1080px){
+        margin-top: 35px;
+        p{
+          font-size: 13px;
+          text-align: center;
+          margin-bottom: 15px;
+        }
       }
     }
+
+    .sideb{
+
+      @media (max-width: 1080px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+          max-width: 328px;
+          margin: 0 auto;
+        }
+      }
+    }
+
   }
 
 

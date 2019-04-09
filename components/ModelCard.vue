@@ -1,6 +1,6 @@
 <template>
   <div class="model-card" :style="`background-image: url('${image}');`">
-    <img :src="icon1" :alt="title">
+    <img class="icon" :src="icon1" :alt="title">
     <img  class="number" :src="icon2" :alt="title">
     <h3>{{title}}</h3>
     <p v-html="cont"></p>
@@ -46,6 +46,28 @@ export default {
 
     .number{
       margin: 20px 0 15px;
+    }
+
+    @media (max-width: 1080px){
+      background-image: none !important;
+      margin: 55px 0 30px;;
+
+      .icon{
+        margin-bottom: 30px;
+      }
+
+      h3{
+        text-align: center;
+      }
+
+      p{
+        text-align: center;
+        line-height: 1.3;
+      }
+
+      .number{
+        display: none;
+      }
     }
   }
 

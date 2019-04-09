@@ -143,13 +143,14 @@
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-between;
-			padding: 0 18px 0 37px;
+			padding: 0 25px;
 			position: fixed;
 
 			.logo{
 				width: 162px;
 				height: 36.21px;
 				cursor: pointer;
+        margin-top: 5px;
 			}
 
 		}
@@ -190,6 +191,10 @@
 			}
 
 		}
+
+    @media (min-width:1080px){
+      display: none;
+    }
 	}
 
 	.close-btn{

@@ -24,6 +24,10 @@ export default {
       font-size: 56px;
       color: #333333;
       margin: 15px 0;
+
+      @media (max-width: 1080px){
+        font-size: 32px;
+      }
     }
 
     h5{
@@ -31,6 +35,12 @@ export default {
       font-size: 18px;
       color: #333333;
       margin-bottom: 20px;
+
+      @media (max-width: 1080px){
+        font-size: 17px;
+        max-width: 206px;
+        margin: 0 auto 20px;
+      }
     }
 
     p{
@@ -38,6 +48,12 @@ export default {
       font-size: 22px;
       color: #707070;
       line-height: 1.6;
+
+      @media (max-width: 1080px){
+        font-size: 16px;
+        max-width: 307px;
+        margin: 0 auto 20px;
+      }
     }
 
   }

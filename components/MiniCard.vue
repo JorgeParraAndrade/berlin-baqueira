@@ -26,6 +26,10 @@ export default {
       font-size: 60px;
       color: #333333;
       margin-bottom: 20px;
+
+      @media (max-width:1080px){
+        font-size: 32px;
+      }
     }
 
     p{
@@ -34,6 +38,11 @@ export default {
       color: #666666;
       line-height: 1.6;
 
+      @media (max-width:1080px){
+        font-size: 18px;
+        max-width: 216px;
+        margin: 0 auto;
+      }
     }
   }
 </style>
