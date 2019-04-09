@@ -10,12 +10,12 @@
 
 			<div class="menu-options">
 				<ul>
-					<li><a href="#top">Inicio</a></li>
-					<li><a href="#nosotros">Nosotros</a></li>
-					<li><a href="#empresas">Empresas</a></li>
-					<li><a href="#modelo">Modelo</a></li>
-					<li><a href="#proyectos">Proyectos</a></li>
-					<li><a href="#contacto"><img src="../assets/img/phone.png" alt="Contacto"></a></li>
+					<li><a href="#" v-scroll-to="'#top'">Inicio</a></li>
+					<li><a href="#" v-scroll-to="'#nosotros'">Nosotros</a></li>
+					<li><a href="#" v-scroll-to="'#empresas'">Empresas</a></li>
+					<li><a href="#" v-scroll-to="'#modelo'">Modelo</a></li>
+					<li><a href="#" v-scroll-to="'#proyectos'">Proyectos</a></li>
+					<li><a href="#" v-scroll-to="'#contacto'"><img src="../assets/img/phone.png" alt="Contacto"></a></li>
 				</ul>
 			</div>
 
