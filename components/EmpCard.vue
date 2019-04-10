@@ -19,6 +19,14 @@ export default {
     width: 520px;
     text-align: center;
 
+    @media (max-width: 1080px){
+      width: auto;
+
+      img{
+        width: 100%;
+      }
+    }
+
     h3{
       font-family: 'roboto-black', sans-serif;
       font-size: 56px;

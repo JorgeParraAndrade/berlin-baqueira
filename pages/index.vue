@@ -225,6 +225,15 @@ export default {
 </script>
 
 <style lang="scss">
+
+  .site{
+    h2#nosotros{
+      @media (max-width: 1080px) {
+        font-size: 21px;
+      }
+    }
+  }
+
   h2{
     font-family: 'roboto-black', sans-serif;
     font-size: 60px;
@@ -233,7 +242,7 @@ export default {
     margin: 100px 0;
 
     @media (max-width:1080px){
-      font-size: 21px;
+      font-size: 30px;
       margin: 25px 0;
     }
   }
@@ -314,6 +323,11 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        div{
+          &:first-child{
+            margin-bottom: 40px;
+          }
+        }
       }
     }
 
@@ -359,6 +373,7 @@ export default {
       @media (max-width: 1080px){
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0;
       }
     }
 
@@ -371,6 +386,7 @@ export default {
       @media (max-width: 1080px){
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0;
       }
     }
 
@@ -438,7 +454,7 @@ export default {
       @media (max-width:1080px){
         flex-direction: column;
         align-items: center;
-        .img-cont{
+        img{
           width: 100%;
         }
       }
@@ -475,8 +491,8 @@ export default {
       @media (max-width:1080px){
         margin-top: 35px;
         p{
-          font-size: 13px;
-          text-align: center;
+          font-size: 16px;
+          text-align: left;
           margin-bottom: 15px;
         }
       }

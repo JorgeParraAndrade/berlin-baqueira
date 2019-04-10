@@ -5,7 +5,7 @@
         Somos líder en soluciones <br>
         de importación y logística.
       </p>
-      <button class="btn-primary">CONOCE NUESTRO MODELO</button>
+      <button class="btn-primary"><a href="#" v-scroll-to="'#modelo'">CONOCE NUESTRO MODELO </a></button>
     </div>
   </div>
 </template>

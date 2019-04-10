@@ -50,7 +50,7 @@ export default {
 
     @media (max-width: 1080px){
       background-image: none !important;
-      margin: 55px 0 30px;;
+      margin: 55px 0 30px;
 
       .icon{
         margin-bottom: 30px;

@@ -48,6 +48,11 @@ html {
   border-radius: 25px;
   color: #ffffff;
 
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
   @media (max-width: 1080px){
     margin-top: 80px;
     font-size: 12px;
