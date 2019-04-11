@@ -2,8 +2,7 @@
   <div class="model-card" :style="`background-image: url('${image}');`">
     <img class="icon" :src="icon1" :alt="title">
     <img  class="number" :src="icon2" :alt="title">
-    <h3>{{title}}</h3>
-    <p v-html="cont"></p>
+    <p v-html="title+' '+cont"></p>
   </div>
 </template>
 
@@ -40,7 +39,7 @@ export default {
       font-family: 'roboto-regular',sans-serif;
       font-size: 19px;
       color: #707070;
-      line-height: 1.6;
+      line-height: 1.3;
       padding: 0 20px;      
     }
 

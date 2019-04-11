@@ -3,7 +3,7 @@
     <div class="center-box">
       <p>
         Somos líder en soluciones <br>
-        de importación y logística.
+        de importación y logística
       </p>
       <button class="btn-primary"><a href="#" v-scroll-to="'#modelo'">CONOCE NUESTRO MODELO </a></button>
     </div>
@@ -33,7 +33,7 @@
 
     .center-box{
       font-family: 'roboto-black', sans-serif;
-      font-size: 60px;
+      font-size: 56px;
       color:#333333;
       font-weight: 300;
       width: 100%;

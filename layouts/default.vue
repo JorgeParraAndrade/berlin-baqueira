@@ -41,7 +41,7 @@ html {
 
 .btn-primary{
   font-family: 'roboto-black', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
   padding: 15px 30px;
   background-color: #FC3A2C;
   border: none;

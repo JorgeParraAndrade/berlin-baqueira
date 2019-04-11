@@ -23,7 +23,7 @@ export default {
 
     h3{
       font-family: 'roboto-black',sans-serif;
-      font-size: 60px;
+      font-size: 50px;
       color: #333333;
       margin-bottom: 20px;
 
@@ -36,7 +36,7 @@ export default {
       font-family: 'roboto-regular', sans-serif;
       font-size: 22px;
       color: #666666;
-      line-height: 1.6;
+      line-height: 1.3;
 
       @media (max-width:1080px){
         font-size: 18px;

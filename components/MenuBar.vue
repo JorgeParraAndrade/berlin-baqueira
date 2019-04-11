@@ -88,7 +88,7 @@
 		.main-logo{
 			max-width: 380px;
 			img{
-				width:100%;
+				width:80%;
 				margin-top: -20px;
 			}
 			@media (max-width: 1080px) {
@@ -107,7 +107,7 @@
 
 				li{
 					margin-right: 30px;
-					font-size: 18px;
+					font-size: 16px;
 					
 					a{
 						color: inherit;

@@ -11,14 +11,12 @@
           <b>El Grupo Empresarial Berlín Baqueira</b> se ha consolidado 
           como líder en soluciones de importación y logística <br> 
           de materias primas en Venezuela.
-        </p>
-        <p>
-          <b>Nuestro portafolio</b> de productos comprende cartones <br>
-          corrugados, empaque PET, polipropileno y químicos, <br>
-          entre varios otros. <b>El Grupo</b> es proactivo en diferentes <br>
-          líneas  de negocio, teniendo un brazo logístico y <br>
-          financiero que le permite ser competitivo en <br>
-          soluciones por aire, mar y tierra en <b>el territorio</b> <br>
+          <b>Nuestro portafolio</b> de productos comprende cartones
+          corrugados, empaque PET, polipropileno y químicos, 
+          entre varios otros. <b>El Grupo</b> es proactivo en diferentes
+          líneas  de negocio, teniendo un brazo logístico y
+          financiero que le permite ser competitivo en
+          soluciones por aire, mar y tierra en <b>el territorio</b>
           <b>venezolano</b> y <b>a nivel internacional.</b>
         </p>
       </div>
@@ -65,14 +63,14 @@
           image="./berlin.png"
           title="Berlin Consulting"
           subtitle="Consultoría financiera y de cadena de suministro "
-          cont="Aliado Estratégico de Empacor, S.A. (Colombia) para <br> el desarrollo de la categoría de cartón corrugado en <br>Venezuela. Operación integrada  verticalmente en <br>soluciones de cartón corrugado (desarrollo y/o <br>homologación, fabricación, importación, <br> almacenamiento y despacho en planta)."
+          cont="Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela. Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)."
           />
 
         <emp-card
           image="./baqueira.png"
           title="Baqueira Berit"
-          subtitle="Empresa dedicada a la importación y <br> distribución  de material de empaque <br> (PET y sacos de polipropileno y/o <br> fique) y pellets de polipropileno"
-          cont="Aliado Estratégico de Esenttia  (Colombia) <br> para la distribución de  poli propileno en <br> Venezuela Aliado Estratégico de <br> Microplast  SAS (Colombia) para soluciones en  empaque PET para <br> Venezuela."
+          subtitle="Empresa dedicada a la importación y distribución de material de empaque (PET y sacos de polipropileno y/o fique) y pellets de polipropileno"
+          cont="Aliado Estratégico de Esenttia (Colombia) para la distribución de poli propileno en Venezuela Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela."
           />
       </div>
 
@@ -80,8 +78,8 @@
         <emp-card
           image="./quimiveco3.png"
           title="Quimiveco"
-          subtitle="Empresa dedicada a la importación y <br> distribución de  una amplia gama de <br> productos  químicos"
-          cont="Régimen 4 y 7 aprobados para la <br> importación, almacenamiento y <br> distribución de materiales químicos <br> restringidos Galpón habilitado para el <br> almacenamiento de químicos restringidos."
+          subtitle="Empresa dedicada a la importación y distribución de  una amplia gama de productos  químicos"
+          cont="Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos Galpón habilitado para el almacenamiento de químicos restringidos."
           />
       </div>
       <img class="separator" src="../assets/img/back1.png" alt="separator">
@@ -97,14 +95,14 @@
           icon1="./hand.png"
           icon2="./1.png"
           title="El Cliente"
-          cont="Solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
+          cont="solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
           />
         <model-card 
           image="./back4.png"
           icon1="./list.png"
           icon2="./2.png"
           title="Recibida"
-          cont="La proforma de materia prima, se elabora estructura de costos en BsS, sujeta a aprobación del Cliente"
+          cont="la proforma de materia prima, se elabora estructura de costos en BsS, sujeta a aprobación del Cliente"
           />
       </div>
 
@@ -114,14 +112,14 @@
           icon1="./cycle.png"
           icon2="./3.png"
           title="El Cliente"
-          cont="Revisa la estructura de costos en sus diferentes departamentos:- Gerencia - Finanzas - Auditoría"
+          cont="revisa la estructura de costos en sus diferentes departamentos:- Gerencia - Finanzas - Auditoría"
           />
         <model-card 
           image="./back4.png"
           icon1="./gear.png"
           icon2="./4.png"
           title="El Cliente"
-          cont="Aprueba la estructura de costos e instruye ejecutar la operación"
+          cont="aprueba la estructura de costos e instruye ejecutar la operación"
           />
       </div>
 
@@ -131,14 +129,14 @@
           icon1="./ship.png"
           icon2="./5.png"
           title="El Grupo"
-          cont="Realiza la importación y despacha en planta"
+          cont="realiza la importación y despacha en planta"
           />
         <model-card 
           image="./back4.png"
           icon1="./money.png"
           icon2="./6.png"
           title="El Cliente"
-          cont="Cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho."
+          cont="cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho."
           />
       </div>
 
@@ -153,13 +151,13 @@
         <div class="row">
           <h2>+125</h2>
           <p>
-            operaciones realizadas bajo este esquema logístico y financiero
+            Operaciones realizadas bajo este esquema logístico y financiero
           </p>
         </div>
         <div class="row" style="margin-bottom:0;">
           <h2>+15</h2>
           <p>
-            aliados comerciales distribuidos en Europa, Asia y América
+            Aliados comerciales distribuidos en Europa, Asia y América
           </p>
         </div>
       </div>
@@ -236,7 +234,7 @@ export default {
 
   h2{
     font-family: 'roboto-black', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: #333333;
     text-align: center;
     margin: 100px 0;
@@ -275,6 +273,7 @@ export default {
         color: #707070;
         margin-bottom: 50px;
         margin-left: 20px;
+        padding-right: 20px;
         line-height: 1.6;
         b{
           color: #000000;
@@ -395,14 +394,13 @@ export default {
   .cont-5{
     background-color: #333333;
     color: #ffffff;
-    padding: 15px;
+    padding: 40px;
 
     .row{
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
-      margin-bottom: -30px;
       max-width: 1150px;
       margin-right: auto;
       margin-left: auto;
