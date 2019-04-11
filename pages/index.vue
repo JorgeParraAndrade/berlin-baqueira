@@ -270,7 +270,7 @@ export default {
       p{
         font-family: 'roboto-regular', sans-serif;
         font-size: 22px;
-        color: #707070;
+        color: #666666;
         margin-bottom: 50px;
         margin-left: 20px;
         padding-right: 20px;
@@ -284,9 +284,10 @@ export default {
       @media (max-width:1080px){
         margin-top: 35px;
         p{
-          font-size: 13px;
-          text-align: center;
-          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 1.3;
+          margin-left: 35px;
+          padding-right: 35px;
         }
       }
     }
@@ -453,7 +454,7 @@ export default {
         flex-direction: column;
         align-items: center;
         img{
-          width: 100%;
+          width:95%;
         }
       }
     }
@@ -489,9 +490,10 @@ export default {
       @media (max-width:1080px){
         margin-top: 35px;
         p{
-          font-size: 16px;
-          text-align: left;
-          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 1.3;
+          margin-left: 35px;
+          padding-right: 35px;
         }
       }
     }

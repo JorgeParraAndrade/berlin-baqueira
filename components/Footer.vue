@@ -29,7 +29,7 @@
     <div class="copy-box">
       <img src="../assets/img/logoresp.png" alt="berlin baqueira">
       <p class="desk">© 2019 Grupo Empresarial Berlín Baqueira, C.A.</p>
-      <p class="resp">© 2019 Grupo Empresarial <br> Berlín Baqueira, C.A.</p>
+      <p class="resp">© 2019 Grupo Empresarial Berlín Baqueira, C.A.</p>
     </div>
 
 
@@ -133,7 +133,7 @@
       margin-bottom: 30px; 
 
       @media (max-width: 1080px){
-        font-size: 17px;
+        font-size: 15px;
         text-align: center;
       }
     }

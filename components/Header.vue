@@ -41,8 +41,8 @@
       padding-left: 200px;
 
       @media (max-width:1080px){
-        font-size: 35px;
-        padding: 0;
+        font-size: 30px;
+        padding: 0 20px;
         text-align: center;
         
       }

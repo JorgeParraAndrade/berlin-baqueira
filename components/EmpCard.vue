@@ -23,7 +23,7 @@ export default {
       width: auto;
 
       img{
-        width: 100%;
+        width: 80%;
       }
     }
 
@@ -58,7 +58,7 @@ export default {
       line-height: 1.3;
 
       @media (max-width: 1080px){
-        font-size: 16px;
+        font-size: 18px;
         max-width: 307px;
         margin: 0 auto 20px;
       }

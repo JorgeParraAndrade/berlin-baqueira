@@ -53,6 +53,7 @@ export default {
 
       .icon{
         margin-bottom: 30px;
+        max-width: 90px;
       }
 
       h3{
