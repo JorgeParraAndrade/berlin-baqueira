@@ -15,6 +15,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  .resp-fix{
+    @media (max-width: 1080px){
+      margin-top: -122px;
+
+      h3{
+        margin-top: -15px !important;
+      }
+    }
+  }
   .emp-card{
     width: 520px;
     text-align: center;
@@ -60,7 +70,7 @@ export default {
       @media (max-width: 1080px){
         font-size: 18px;
         max-width: 307px;
-        margin: 0 auto 20px;
+        margin: 0 auto 60px;
       }
     }
 

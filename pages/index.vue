@@ -76,6 +76,7 @@
 
       <div class="subcont-w">
         <emp-card
+          class="resp-fix"
           image="./quimiveco3.png"
           title="Quimiveco"
           subtitle="Empresa dedicada a la importación y distribución de  una amplia gama de productos  químicos"
@@ -223,6 +224,12 @@ export default {
 </script>
 
 <style lang="scss">
+
+  #empresas, #modelo{
+    @media (max-width: 1080px){
+      margin: -50px 0 25px;
+    }
+  }
 
   .site{
     h2#nosotros{
