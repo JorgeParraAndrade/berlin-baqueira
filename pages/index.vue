@@ -165,7 +165,7 @@
 
     <!-- Sixth sextion -->
     <section id="proyectos" class="cont-6">
-      <h2 style="margin:80px 0 50px;;">Afiliados</h2>
+      <h2 style="margin:80px 0 50px;;">Clientes & Proveedores</h2>
       <div class="img-cont">
         <img src="../assets/img/logo1.png" alt="clientes-Afiliados">
         <img src="../assets/img/logo2.png" alt="clientes-Afiliados">
