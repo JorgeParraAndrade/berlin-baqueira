@@ -40,7 +40,8 @@ export default {
       font-size: 19px;
       color: #707070;
       line-height: 1.3;
-      padding: 0 20px;      
+      padding: 0 20px; 
+      text-align: center;     
     }
 
     .number{

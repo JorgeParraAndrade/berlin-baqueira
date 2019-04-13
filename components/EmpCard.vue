@@ -1,7 +1,7 @@
 <template>
   <div class="emp-card">
     <img :src="image" :alt="title">
-    <h3>{{title}}</h3>
+    <h3 v-html="title"></h3>
     <h5 v-html="subtitle"></h5>
     <p v-html="cont"></p>
   </div>
@@ -66,6 +66,7 @@ export default {
       font-size: 22px;
       color: #707070;
       line-height: 1.3;
+      text-align: justify;
 
       @media (max-width: 1080px){
         font-size: 18px;

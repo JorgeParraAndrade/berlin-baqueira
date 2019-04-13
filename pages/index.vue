@@ -8,12 +8,13 @@
     <section class="cont-1">
       <div class="sidea">
         <p>
-          <b>El Grupo Empresarial Berlín Baqueira</b> se ha consolidado 
-          como líder en soluciones de importación y logística <br> 
-          de materias primas en Venezuela.
+          <b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado 
+          como líder en soluciones de importación y logística de materias primas en Venezuela.
           <b>Nuestro portafolio</b> de productos comprende cartones
           corrugados, empaque PET, polipropileno y químicos, 
-          entre varios otros. <b>El Grupo</b> es proactivo en diferentes
+          entre varios otros. 
+          </p>
+          <p><b>El Grupo</b> es proactivo en diferentes
           líneas  de negocio, teniendo un brazo logístico y
           financiero que le permite ser competitivo en
           soluciones por aire, mar y tierra en <b>el territorio</b>
@@ -21,12 +22,12 @@
         </p>
       </div>
       <div class="sideb">
-        <img src="../assets/img/Rectángulo 13.png" alt="plane">
+        <img src="../assets/img/plane.jpg" alt="plane">
       </div>
     </section>
 
     <!-- Second section -->
-    <h2>Nuestro pilares</h2>
+    <h2>Nuestro Pilares</h2>
     <section class="cont-2">
 
       <div class="subcont-1">
@@ -46,7 +47,7 @@
         <mini-card
           image="./back4.png"
           title="Visión"
-          cont="Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos."
+          cont="Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos"
           />
       </div>
 
@@ -63,14 +64,14 @@
           image="./berlin.png"
           title="Berlin Consulting"
           subtitle="Consultoría financiera y de cadena de suministro "
-          cont="Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela. Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)."
+          cont="- Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>- Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
           />
 
         <emp-card
           image="./baqueira.png"
-          title="Baqueira Berit"
+          title="Inversiones <br> Baqueria Beirit"
           subtitle="Empresa dedicada a la importación y distribución de material de empaque (PET y sacos de polipropileno y/o fique) y pellets de polipropileno"
-          cont="Aliado Estratégico de Esenttia (Colombia) para la distribución de poli propileno en Venezuela Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela."
+          cont="- Aliado Estratégico de Esenttia (Colombia) para la distribución de polipropileno en Venezuela <br>- Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela"
           />
       </div>
 
@@ -78,9 +79,9 @@
         <emp-card
           class="resp-fix"
           image="./quimiveco3.png"
-          title="Quimiveco"
+          title="Inversiones Quimiveco"
           subtitle="Empresa dedicada a la importación y distribución de  una amplia gama de productos  químicos"
-          cont="Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos Galpón habilitado para el almacenamiento de químicos restringidos."
+          cont="- Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos <br>- Galpón habilitado para el almacenamiento de químicos restringidos"
           />
       </div>
       <img class="separator" src="../assets/img/back1.png" alt="separator">
@@ -113,7 +114,7 @@
           icon1="./cycle.png"
           icon2="./3.png"
           title="El Cliente"
-          cont="revisa la estructura de costos en sus diferentes departamentos:- Gerencia - Finanzas - Auditoría"
+          cont="revisa la estructura de costos en sus diferentes departamentos:<br>- Gerencia<br> - Finanzas<br> - Auditoría"
           />
         <model-card 
           image="./back4.png"
@@ -137,11 +138,9 @@
           icon1="./money.png"
           icon2="./6.png"
           title="El Cliente"
-          cont="cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho."
+          cont="cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho"
           />
       </div>
-
-      <img class="separator-2" src="../assets/img/back1.png" alt="separator">
 
     </section>
 
@@ -166,7 +165,7 @@
 
     <!-- Sixth sextion -->
     <section id="proyectos" class="cont-6">
-      <h2 style="margin:80px 0 50px;;">Clientes & Afiliados</h2>
+      <h2 style="margin:80px 0 50px;;">Afiliados</h2>
       <div class="img-cont">
         <img src="../assets/img/logo1.png" alt="clientes-Afiliados">
         <img src="../assets/img/logo2.png" alt="clientes-Afiliados">
@@ -174,7 +173,7 @@
     </section>
 
     <!-- Seventh section -->
-    <h2>Manufactura inteligente </h2>
+    <h2>Manufactura Inteligente </h2>
     <section class="cont-7">
       <div class="sidea">
         <p>
@@ -191,11 +190,11 @@
           que el retorno de los activos de nuestros 
           clientes sea el mayor posible, identificando 
           las potenciales contingencias antes que 
-          se materialicen
+          se materialicen.
         </p>
       </div>
       <div class="sideb">
-        <img src="../assets/img/Rectángulo 12.png" alt="plane">
+        <img src="../assets/img/shippic.jpg" alt="plane">
       </div>    
     </section>
 
@@ -282,6 +281,7 @@ export default {
         margin-left: 20px;
         padding-right: 20px;
         line-height: 1.6;
+        text-align: justify;
         b{
           color: #000000;
           font-weight: inherit;
@@ -375,7 +375,7 @@ export default {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin-bottom: 80px;
+      margin-bottom: 180px;
 
       @media (max-width: 1080px){
         flex-direction: column;
@@ -487,6 +487,7 @@ export default {
         margin-left: 20px;
         margin-right: 20px;
         line-height: 1.6;
+        text-align: justify;
         b{
           color: #000000;
           font-weight: inherit;

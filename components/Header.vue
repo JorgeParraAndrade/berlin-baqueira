@@ -14,7 +14,7 @@
 
   .main-header{
 
-    background-image: url('../assets/img/header-back.png');
+    background-image: url('../assets/img/header-back.jpg');
     background-position: top;
     background-size: cover;
     height: 765px;

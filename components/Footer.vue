@@ -21,15 +21,15 @@
       <div class="contact-card">
         <img class="mail" src="../assets/img/mail.png" alt="Ubicación">
         <p>
-          <a href="mailto:comercial@berlinbaqueira.com">comercial@berlinbaqueira.com</a>
+          <a href="mailto:gerencia@berlinbaqueira.com">gerencia@berlinbaqueira.com</a>
         </p>
       </div>
     </div>
 
     <div class="copy-box">
       <img src="../assets/img/logoresp.png" alt="berlin baqueira">
-      <p class="desk">© 2019 Grupo Empresarial Berlín Baqueira, C.A.</p>
-      <p class="resp">© 2019 Grupo Empresarial Berlín Baqueira, C.A.</p>
+      <p class="desk">© 2019 Grupo Empresarial Berlin Baqueira, C.A.</p>
+      <p class="resp">© 2019 Grupo Empresarial Berlin Baqueira, C.A.</p>
     </div>
 
 
