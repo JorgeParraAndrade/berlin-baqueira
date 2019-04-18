@@ -1,11 +1,8 @@
 <template>
   <div class="main-header">
     <div class="center-box">
-      <p>
-        Somos líder en soluciones <br>
-        de importación y logística
-      </p>
-      <button class="btn-primary"><a href="#" v-scroll-to="'#modelo'">CONOCE NUESTRO MODELO </a></button>
+      <p v-html="$t('header.text')"></p>
+      <button class="btn-primary"><a href="#" v-scroll-to="'#modelo'">{{ $t('header.button') }}</a></button>
     </div>
   </div>
 </template>

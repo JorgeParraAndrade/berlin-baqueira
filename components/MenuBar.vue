@@ -10,15 +10,14 @@
 
 			<div class="menu-options">
 				<ul>
-					<li><a href="#" v-scroll-to="'#top'">Inicio</a></li>
-					<li><a href="#" v-scroll-to="'#nosotros'">Nosotros</a></li>
-					<li><a href="#" v-scroll-to="'#empresas'">Empresas</a></li>
-					<li><a href="#" v-scroll-to="'#modelo'">Modelo</a></li>
-					<li><a href="#" v-scroll-to="'#proyectos'">Proyectos</a></li>
+					<li><a href="#" v-scroll-to="'#top'">{{$t('links.home')}}</a></li>
+					<li><a href="#" v-scroll-to="'#nosotros'">{{$t('links.nosotros')}}</a></li>
+					<li><a href="#" v-scroll-to="'#empresas'">{{$t('links.empresas')}}</a></li>
+					<li><a href="#" v-scroll-to="'#modelo'">{{$t('links.modelo')}}</a></li>
+					<li><a href="#" v-scroll-to="'#proyectos'">{{$t('links.proyectos')}}</a></li>
 					<li><a href="#" v-scroll-to="'#contacto'"><img src="../assets/img/phone.png" alt="Contacto"></a></li>
 				</ul>
 			</div>
-
 
 		</div>
 
@@ -30,12 +29,12 @@
 		<div class="resp-menu-options" ref="respmenu">
 			<img class="close-btn" src="../assets/img/close.png" alt="close" ref="closetrigger" @click="closemenu()">
 			<ul>
-				<li><a href="#" v-scroll-to="'#top'" @click="closemenu()">Inicio</a></li>
-				<li><a href="#" v-scroll-to="'#nosotros'" @click="closemenu()">Nosotros</a></li>
-				<li><a href="#" v-scroll-to="'#empresas'" @click="closemenu()">Empresas</a></li>
-				<li><a href="#" v-scroll-to="'#modelo'" @click="closemenu()">Modelo</a></li>
-				<li><a href="#" v-scroll-to="'#proyectos'" @click="closemenu()">Proyectos</a></li>
-				<li><a href="#" v-scroll-to="'#contacto'" @click="closemenu()">Contacto</a></li>
+				<li><a href="#" v-scroll-to="'#top'" @click="closemenu()">{{$t('links.home')}}</a></li>
+				<li><a href="#" v-scroll-to="'#nosotros'" @click="closemenu()">{{$t('links.nosotros')}}</a></li>
+				<li><a href="#" v-scroll-to="'#empresas'" @click="closemenu()">{{$t('links.empresas')}}</a></li>
+				<li><a href="#" v-scroll-to="'#modelo'" @click="closemenu()">{{$t('links.modelo')}}</a></li>
+				<li><a href="#" v-scroll-to="'#proyectos'" @click="closemenu()">{{$t('links.proyectos')}}</a></li>
+				<li><a href="#" v-scroll-to="'#contacto'" @click="closemenu()">{{$t('links.contacto')}}</a></li>
 			</ul>
 		</div>
 

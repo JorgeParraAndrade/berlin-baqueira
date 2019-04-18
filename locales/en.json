@@ -1,0 +1,27 @@
+{
+  
+  "links": {
+    "home": "Home",
+    "nosotros": "About Us",
+    "empresas": "Enterprises",
+    "modelo": "Model",
+    "proyectos": "Projects",
+    "contacto":"Contact"
+  },
+
+  "header": {
+    "text":"Somos líder en soluciones <br> de importación y logística",
+    "button":"CONOCE NUESTRO MODELO"
+  },
+
+  "about": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  }
+
+}

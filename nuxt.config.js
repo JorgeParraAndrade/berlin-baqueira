@@ -35,20 +35,30 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~plugins/vue-scrollto.js'
+    '~plugins/vue-scrollto.js',
+    '~/plugins/i18n.js'
   ],
+
+  generate: {
+    routes: ['/', '/en']
+  },
 
   /*
   ** Nuxt.js modules
   */
   modules: [
   ],
+
+  router: {              // customize nuxt.js router (vue-router).
+    middleware: 'i18n'   // middleware all pages of the application
+  },
   
 
   /*
   ** Build configuration
   */
   build: {
+    vendor: ['vue-i18n'],
     /*
     ** You can extend webpack config here
     */
