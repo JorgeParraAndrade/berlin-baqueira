@@ -19,22 +19,23 @@
 
       <div class="subcont-1">
         <mini-card
-          image="./back4.png"
+          image="../back4.png"
           :title="$t('pilars.mision')"
           :cont="$t('pilars.misiontext')"
           />
         <mini-card
-          image="./back4.png"
-          :title="$t('pilars.values')"
-          :cont="$t('pilars.valuestext')"
+          image="../back4.png"
+          :title="$t('pilars.vision')"
+          :cont="$t('pilars.visiontext')"
+
           />
       </div>
 
       <div class="subcont-2">
         <mini-card
-          image="./back4.png"
-          :title="$t('pilars.vision')"
-          :cont="$t('pilars.visiontext')"
+          image="../back4.png"
+          :title="$t('pilars.values')"
+          :cont="$t('pilars.valuestext')"
           />
       </div>
 
@@ -48,14 +49,14 @@
 
       <div class="subcont-h">
         <emp-card
-          image="./berlin.png"
+          image="../berlin.png"
           :title="$t('enterprises.enterprises.emp1.title')"
           :subtitle="$t('enterprises.enterprises.emp1.subtitle')"
           :cont="$t('enterprises.enterprises.emp1.text')"
           />
 
         <emp-card
-          image="./baqueira.png"
+          image="../baqueira.png"
           :title="$t('enterprises.enterprises.emp2.title')"
           :subtitle="$t('enterprises.enterprises.emp2.subtitle')"
           :cont="$t('enterprises.enterprises.emp2.text')"
@@ -65,7 +66,7 @@
       <div class="subcont-w">
         <emp-card
           class="resp-fix"
-          image="./quimiveco3.png"
+          image="../quimiveco3.png"
           :title="$t('enterprises.enterprises.emp3.title')"
           :subtitle="$t('enterprises.enterprises.emp3.subtitle')"
           :cont="$t('enterprises.enterprises.emp3.text')"
@@ -77,57 +78,57 @@
     </section>
 
     <!-- Fourth section -->
-    <h2 id="modelo">Modelo</h2>
+    <h2 id="modelo">{{$t('model.title')}}</h2>
     <section class="cont-4">
 
       <div class="subcont-a">
         <model-card 
-          image="./back4.png"
-          icon1="./hand.png"
-          icon2="./1.png"
-          title="El Cliente"
-          cont="solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
+          image="../back4.png"
+          icon1="../hand.png"
+          icon2="../1.png"
+          :title="$t('model.models.mod1.title')"
+          :cont="$t('model.models.mod1.text')"
           />
         <model-card 
-          image="./back4.png"
-          icon1="./list.png"
-          icon2="./2.png"
-          title="Recibida"
-          cont="la proforma de materia prima, se elabora estructura de costos en BsS, sujeta a aprobación del Cliente"
+          image="../back4.png"
+          icon1="../list.png"
+          icon2="../2.png"
+          :title="$t('model.models.mod2.title')"
+          :cont="$t('model.models.mod2.text')"
           />
       </div>
 
       <div class="subcont-b">
         <model-card 
-          image="./back4.png"
-          icon1="./cycle.png"
-          icon2="./3.png"
-          title="El Cliente"
-          cont="revisa la estructura de costos en sus diferentes departamentos:<br>• Gerencia<br> • Finanzas<br> • Auditoría"
+          image="../back4.png"
+          icon1="../cycle.png"
+          icon2="../3.png"
+          :title="$t('model.models.mod3.title')"
+          :cont="$t('model.models.mod3.text')"
           />
         <model-card 
-          image="./back4.png"
-          icon1="./gear.png"
-          icon2="./4.png"
-          title="El Cliente"
-          cont="aprueba la estructura de costos e instruye ejecutar la operación"
+          image="../back4.png"
+          icon1="../gear.png"
+          icon2="../4.png"
+          :title="$t('model.models.mod4.title')"
+          :cont="$t('model.models.mod4.text')"
           />
       </div>
 
       <div class="subcont-a">
         <model-card 
-          image="./back4.png"
-          icon1="./ship.png"
-          icon2="./5.png"
-          title="El Grupo"
-          cont="realiza la importación y despacha en planta"
+          image="../back4.png"
+          icon1="../ship.png"
+          icon2="../5.png"
+          :title="$t('model.models.mod5.title')"
+          :cont="$t('model.models.mod5.text')"
           />
         <model-card 
-          image="./back4.png"
-          icon1="./money.png"
-          icon2="./6.png"
-          title="El Cliente"
-          cont="cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho"
+          image="../back4.png"
+          icon1="../money.png"
+          icon2="../6.png"
+          :title="$t('model.models.mod6.title')"
+          :cont="$t('model.models.mod6.text')"
           />
       </div>
 
@@ -135,18 +136,18 @@
 
     <!-- Fifth section -->
     <section class="cont-5">
-      <h2>Datos Claves</h2>
+      <h2>{{$t('cta.title')}}</h2>
       <div class="call-action">
         <div class="row">
           <h2>+125</h2>
           <p>
-            Operaciones realizadas bajo este esquema logístico y financiero
+            {{$t('cta.text1')}}
           </p>
         </div>
         <div class="row" style="margin-bottom:0;">
           <h2>+15</h2>
           <p>
-            Aliados comerciales distribuidos en Europa, Asia y América
+            {{$t('cta.text2')}}
           </p>
         </div>
       </div>
@@ -154,7 +155,7 @@
 
     <!-- Sixth sextion -->
     <section id="proyectos" class="cont-6">
-      <h2 style="margin:80px 0 50px;;">Clientes & Proveedores</h2>
+      <h2 style="margin:80px 0 50px;;">{{$t('cyp.title')}}</h2>
       <div class="img-cont">
         <img src="../../assets/img/logo1.png" alt="clientes-Afiliados">
         <img src="../../assets/img/logo2.png" alt="clientes-Afiliados">
@@ -162,26 +163,9 @@
     </section>
 
     <!-- Seventh section -->
-    <h2>Manufactura Inteligente </h2>
+    <h2>{{$t('manu.title')}}</h2>
     <section class="cont-7">
-      <div class="sidea">
-        <p>
-          <b>Para aumentar</b> la eficiencia y reducir 
-          la exposición a paradas no programadas, 
-          auditamos las líneas de producción 
-          y hacemos la planeación de <b>mantenimientos 
-          preventivos</b> en conjunto con un manejo 
-          de inventario de piezas sensibles 
-          y consumibles.
-        </p>
-        <p>
-          <b>Por medio de esta iniciativa</b> buscamos 
-          que el retorno de los activos de nuestros 
-          clientes sea el mayor posible, identificando 
-          las potenciales contingencias antes que 
-          se materialicen.
-        </p>
-      </div>
+      <div class="sidea" v-html="$t('manu.text')"></div>
       <div class="sideb">
         <img src="../../assets/img/shippic.jpg" alt="plane">
       </div>    

@@ -28,8 +28,8 @@
 
     <div class="copy-box">
       <img src="../assets/img/logoresp.png" alt="berlin baqueira">
-      <p class="desk">© 2019 Grupo Empresarial Berlin Baqueira, C.A.</p>
-      <p class="resp">© 2019 Grupo Empresarial Berlin Baqueira, C.A.</p>
+      <p class="desk">{{$t('copy.text')}}</p>
+      <p class="resp">{{$t('copy.text')}}</p>
     </div>
 
 

@@ -16,7 +16,7 @@
 
   "about": {
     "title": "Soluciones por aire, mar y tierra",
-    "text": "<p><b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado como líder en soluciones de importación y logística de materias primas en Venezuela. <b>Nuestro portafolio</b>de productos comprende cartones corrugados, empaque PET, polipropileno y químicos, entre varios otros. </p><p><b>El Grupo</b> es proactivo en diferentes líneas  de negocio, teniendo un brazo logístico y financiero que le permite ser competitivo en soluciones por aire, mar y tierra en <b>el territorio</b> <b>venezolano</b> y <b>a nivel internacional.</b></p>"
+    "text": "<p><b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado como líder en soluciones de importación y logística de materias primas en Venezuela. <b>Nuestro portafolio</b> de productos comprende cartones corrugados, empaque PET, polipropileno y químicos, entre varios otros. </p><p><b>El Grupo</b> es proactivo en diferentes líneas  de negocio, teniendo un brazo logístico y financiero que le permite ser competitivo en soluciones por aire, mar y tierra en <b>el territorio</b> <b>venezolano</b> y <b>a nivel internacional.</b></p>"
   },
 
   "pilars":{
@@ -43,9 +43,9 @@
         "text":"• Aliado Estratégico de Esenttia (Colombia) para la distribución de polipropileno en Venezuela <br>• Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela"
       },
       "emp3":{
-        "title":"Berlin Consulting",
-        "subtitle":"Consultoría financiera y de cadena de suministro ",
-        "text":"• Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>• Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
+        "title":"Inversiones Quimiveco",
+        "subtitle":"Empresa dedicada a la importación y distribución de una amplia gama de productos químicos",
+        "text":"• Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos<br>• Galpón habilitado para el almacenamiento de químicos restringidos"
       }
     }
   },
@@ -80,9 +80,24 @@
     }
   },
 
-  "home": {
-    "title": "Bienvenido",
-    "introduction": "Esto es una introducción en español."
+  "cta":{
+    "title":"Datos Claves",
+    "text1":"Operaciones realizadas bajo este esquema logístico y financiero",
+    "text2":"Aliados comerciales distribuidos en Europa, Asia y América"
+  },
+
+  "cyp":{
+    "title":"Clientes & Proveedores"
+  },
+
+  "manu": {
+    "title": "Manufactura Inteligente",
+    "text": "<p><b>Para aumentar</b> la eficiencia y reducir la exposición a paradas no programadas, auditamos las líneas de producción y hacemos la planeación de <b>mantenimientos preventivos</b> en conjunto con un manejo de inventario de piezas sensibles y consumibles. </p><p><b>Por medio de esta iniciativa</b> buscamos que el retorno de los activos de nuestros clientes sea el mayor posible, identificando las potenciales contingencias antes que se materialicen.</p>"
+  },
+
+  "copy":{
+    "text":"© 2019 Grupo Empresarial Berlin Baqueira, C.A."
   }
+
 
 }
