@@ -15,88 +15,88 @@
   },
 
   "about": {
-    "title": "Soluciones por aire, mar y tierra",
-    "text": "<p><b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado como líder en soluciones de importación y logística de materias primas en Venezuela. <b>Nuestro portafolio</b> de productos comprende cartones corrugados, empaque PET, polipropileno y químicos, entre varios otros. </p><p><b>El Grupo</b> es proactivo en diferentes líneas  de negocio, teniendo un brazo logístico y financiero que le permite ser competitivo en soluciones por aire, mar y tierra en <b>el territorio</b> <b>venezolano</b> y <b>a nivel internacional.</b></p>"
+    "title": "Solutions by air, land and sea",
+    "text": "<p><b>The Business Group Berlin Baqueira</b> has positioned itself as leader in logistics solutions and imports of raw materials in Venezuela. <b>Our portfolio</b> of products compromises corrugated cardboard, PET packaging, polypropyleneand chemicals,among others. </p><p><b>The Business Group</b> s proactive in different lines of business, with a logistics and financial arm that allows it to becompetitive on solutions by air, land and sea in <b>Venezuela</b> and <b>internationally.</b></p>"
   },
 
   "pilars":{
-    "title": "Nuestro Pilares",
-    "mision": "Misión",
-    "misiontext": "Creamos y ejecutamos las mejores soluciones para los retos logísticos y financieros del empresariado venezolano",
-    "values": "Valores",
-    "valuestext": "Honestidad <br> Consistencia <br> Eficiencia",
-    "vision": "Visión",
-    "visiontext": "Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos"
+    "title": "Our Pillars",
+    "mision": "Mission",
+    "misiontext": "We develop and execute the best solutions for the logisticsand financial challenges of the Venezuelan business community",
+    "values": "Values",
+    "valuestext": "Honesty <br> Consistency <br> Efficiency",
+    "vision": "Vision",
+    "visiontext": "To be theleading Company in the developmentof solutions for the most emblematicand beloved brands by Venezuelans"
   },
 
   "enterprises": {
-    "title": "Empresas",
+    "title": "Our Companies",
     "enterprises":{
       "emp1":{
         "title":"Berlin Consulting",
-        "subtitle":"Consultoría financiera y de cadena de suministro ",
-        "text":"• Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>• Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
+        "subtitle":"Company specialized in supply chain logistic and financial consultancy",
+        "text":"• Strategic Ally to Empacor, S.A. (Colombia) for the development and expansion of the corrugated cardboard category<br>• Operation with vertical integration (development and/or homologation, production, import, storage and on-site delivery)"
       },
       "emp2":{
         "title":"Inversiones <br> Baqueria Beirit",
-        "subtitle":"Empresa dedicada a la importación y distribución de material de empaque (PET y sacos de polipropileno y/o fique) y pellets de polipropileno",
-        "text":"• Aliado Estratégico de Esenttia (Colombia) para la distribución de polipropileno en Venezuela <br>• Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela"
+        "subtitle":"Company specialized in import and distribution of packaging material (PET and bags of polypropylene and fique) and pellets of polypropylene",
+        "text":"• Strategic Ally for Esenttia (Colombia) for coverage and distribution of polypropylene in Venezuela <br>• Strategic Ally to Microplast SAS (Colombia) for solutions in PET packaging in Venezuela"
       },
       "emp3":{
         "title":"Inversiones Quimiveco",
-        "subtitle":"Empresa dedicada a la importación y distribución de una amplia gama de productos químicos",
-        "text":"• Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos<br>• Galpón habilitado para el almacenamiento de químicos restringidos"
+        "subtitle":"Company specialized in import and distribution of a broad array of chemical products",
+        "text":"• Approved permits for import, storage and distribution of restricted chemicals in Venezuela(Regime4and 7)<br>• Conditioned storage deposit for the appropriate handling of restricted chemicals, compliant with international standards"
       }
     }
   },
 
   "model":{
-    "title":"Modelo",
+    "title":"Business Model",
     "models":{
       "mod1":{
-        "title":"El Cliente",
-        "text":"solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
+        "title":"The Client",
+        "text":"requests raw material quote, referring us to the supplier or requesting development"
       },
       "mod2":{
-        "title":"Recibida",
-        "text":"la proforma de materia prima, se elabora estructura de costos en BsS, sujeta a aprobación del Cliente"
+        "title":"Upon",
+        "text":"reception of raw material quote, a “Cost Structure” is developed in local currency (BsS)"
       },
       "mod3":{
-        "title":"El Cliente",
-        "text":"revisa la estructura de costos en sus diferentes departamentos:<br>• Gerencia<br> • Finanzas<br> • Auditoría"
+        "title":"The Client",
+        "text":"checks the Cost Structure in the corresponding departments:<br>• Management <br> • Finance<br> • Auditing"
       },
       "mod4":{
-        "title":"El Cliente",
-        "text":"aprueba la estructura de costos e instruye ejecutar la operación"
+        "title":"The Client",
+        "text":"approves the operation and the Company executes"
       },
       "mod5":{
-        "title":"El Grupo",
-        "text":"realiza la importación y despacha en planta"
+        "title":"The Company",
+        "text":"imports and delivers on-site"
       },
       "mod6":{
-        "title":"El Cliente",
-        "text":"cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho"
+        "title":"The Client",
+        "text":"pays once goods are received on-site in local currency (BsS) at exchange rate of the time"
       }
     }
   },
 
   "cta":{
-    "title":"Datos Claves",
-    "text1":"Operaciones realizadas bajo este esquema logístico y financiero",
-    "text2":"Aliados comerciales distribuidos en Europa, Asia y América"
+    "title":"Key Data",
+    "text1":"Successful operations within this business model frame",
+    "text2":"Commercial allies in Europe, Asia and America"
   },
 
   "cyp":{
-    "title":"Clientes & Proveedores"
+    "title":"Clients & Suppliers"
   },
 
   "manu": {
-    "title": "Manufactura Inteligente",
-    "text": "<p><b>Para aumentar</b> la eficiencia y reducir la exposición a paradas no programadas, auditamos las líneas de producción y hacemos la planeación de <b>mantenimientos preventivos</b> en conjunto con un manejo de inventario de piezas sensibles y consumibles. </p><p><b>Por medio de esta iniciativa</b> buscamos que el retorno de los activos de nuestros clientes sea el mayor posible, identificando las potenciales contingencias antes que se materialicen.</p>"
+    "title": "Smart Manufacturing",
+    "text": "<p>In order to <b>improve</b> efficiency and minimize exposure to non-programmed stops of factories, weaudit productionlines inorder to plan <b>preventive maintenance</b> and manage inventoriesof sensitiveand consumablespare parts. </p><p><b>Through this initiative</b> we seek to maximize the capital return of our Clients’ long-term assets, by identifying potentialcontingencies beforethey materialize.</p>"
   },
 
   "copy":{
-    "text":"© 2019 Grupo Empresarial Berlin Baqueira, C.A."
+    "text":"© 2019 Business Group Berlin Baqueira, C.A."
   }
 
 }
