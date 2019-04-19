@@ -15,6 +15,7 @@
 					<li><a href="#" v-scroll-to="'#empresas'">{{$t('links.empresas')}}</a></li>
 					<li><a href="#" v-scroll-to="'#modelo'">{{$t('links.modelo')}}</a></li>
 					<li><a href="#" v-scroll-to="'#proyectos'">{{$t('links.proyectos')}}</a></li>
+					<li><nuxt-link to="/es" tag="a">ES</nuxt-link> / <nuxt-link to="/en" tag="a">EN</nuxt-link></li>
 					<li><a href="#" v-scroll-to="'#contacto'"><img src="../assets/img/phone.png" alt="Contacto"></a></li>
 				</ul>
 			</div>
@@ -35,6 +36,8 @@
 				<li><a href="#" v-scroll-to="'#modelo'" @click="closemenu()">{{$t('links.modelo')}}</a></li>
 				<li><a href="#" v-scroll-to="'#proyectos'" @click="closemenu()">{{$t('links.proyectos')}}</a></li>
 				<li><a href="#" v-scroll-to="'#contacto'" @click="closemenu()">{{$t('links.contacto')}}</a></li>
+				<li><nuxt-link to="/es" tag="a">Español</nuxt-link></li>
+				<li><nuxt-link to="/en" tag="a">English</nuxt-link></li>
 			</ul>
 		</div>
 
