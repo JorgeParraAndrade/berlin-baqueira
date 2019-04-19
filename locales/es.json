@@ -15,8 +15,69 @@
   },
 
   "about": {
-    "title": "Welcome",
-    "introduction": "This is an introduction in English."
+    "title": "Soluciones por aire, mar y tierra",
+    "text": "<p><b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado como líder en soluciones de importación y logística de materias primas en Venezuela. <b>Nuestro portafolio</b>de productos comprende cartones corrugados, empaque PET, polipropileno y químicos, entre varios otros. </p><p><b>El Grupo</b> es proactivo en diferentes líneas  de negocio, teniendo un brazo logístico y financiero que le permite ser competitivo en soluciones por aire, mar y tierra en <b>el territorio</b> <b>venezolano</b> y <b>a nivel internacional.</b></p>"
+  },
+
+  "pilars":{
+    "title": "Nuestro Pilares",
+    "mision": "Misión",
+    "misiontext": "Creamos y ejecutamos las mejores soluciones para los retos logísticos y financieros del empresariado venezolano",
+    "values": "Valores",
+    "valuestext": "Honestidad <br> Consistencia <br> Eficiencia",
+    "vision": "Visión",
+    "visiontext": "Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos"
+  },
+
+  "enterprises": {
+    "title": "Empresas",
+    "enterprises":{
+      "emp1":{
+        "title":"Berlin Consulting",
+        "subtitle":"Consultoría financiera y de cadena de suministro ",
+        "text":"• Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>• Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
+      },
+      "emp2":{
+        "title":"Inversiones <br> Baqueria Beirit",
+        "subtitle":"Empresa dedicada a la importación y distribución de material de empaque (PET y sacos de polipropileno y/o fique) y pellets de polipropileno",
+        "text":"• Aliado Estratégico de Esenttia (Colombia) para la distribución de polipropileno en Venezuela <br>• Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela"
+      },
+      "emp3":{
+        "title":"Berlin Consulting",
+        "subtitle":"Consultoría financiera y de cadena de suministro ",
+        "text":"• Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>• Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
+      }
+    }
+  },
+
+  "model":{
+    "title":"Modelo",
+    "models":{
+      "mod1":{
+        "title":"El Cliente",
+        "text":"solicita cotización de materia prima, refiriéndonos al proveedor internacional o solicitando desarrollo"
+      },
+      "mod2":{
+        "title":"Recibida",
+        "text":"la proforma de materia prima, se elabora estructura de costos en BsS, sujeta a aprobación del Cliente"
+      },
+      "mod3":{
+        "title":"El Cliente",
+        "text":"revisa la estructura de costos en sus diferentes departamentos:<br>• Gerencia<br> • Finanzas<br> • Auditoría"
+      },
+      "mod4":{
+        "title":"El Cliente",
+        "text":"aprueba la estructura de costos e instruye ejecutar la operación"
+      },
+      "mod5":{
+        "title":"El Grupo",
+        "text":"realiza la importación y despacha en planta"
+      },
+      "mod6":{
+        "title":"El Cliente",
+        "text":"cancela una vez recibida la mercancía en planta, en BsS a la tasa del día del despacho"
+      }
+    }
   },
 
   "home": {

@@ -5,53 +5,36 @@
 
     <!-- First Section -->
     <!-- <h2 id="nosotros">Soluciones por aire, mar y tierra</h2> -->
-    <h2 id="nosotros">{{ $t('home.title') }}</h2>
+    <h2 id="nosotros">{{ $t('about.title') }}</h2>
     <section class="cont-1">
-      <div class="sidea">
-        <p>
-          {{ $t('home.introduction') }}
-        </p>
-        <!-- <p>
-          <b>El Grupo Empresarial Berlin Baqueira</b> se ha consolidado 
-          como líder en soluciones de importación y logística de materias primas en Venezuela.
-          <b>Nuestro portafolio</b> de productos comprende cartones
-          corrugados, empaque PET, polipropileno y químicos, 
-          entre varios otros. 
-          </p>
-          <p><b>El Grupo</b> es proactivo en diferentes
-          líneas  de negocio, teniendo un brazo logístico y
-          financiero que le permite ser competitivo en
-          soluciones por aire, mar y tierra en <b>el territorio</b>
-          <b>venezolano</b> y <b>a nivel internacional.</b>
-        </p> -->
-      </div>
+      <div class="sidea" v-html="$t('about.text')"></div>
       <div class="sideb">
         <img src="../../assets/img/plane.jpg" alt="plane">
       </div>
     </section>
 
     <!-- Second section -->
-    <h2>Nuestro Pilares</h2>
+    <h2>{{$t('pilars.title')}}</h2>
     <section class="cont-2">
 
       <div class="subcont-1">
         <mini-card
           image="./back4.png"
-          title="Misión"
-          cont="Creamos y ejecutamos las mejores soluciones para los retos logísticos y financieros del empresariado venezolano"
+          :title="$t('pilars.mision')"
+          :cont="$t('pilars.misiontext')"
           />
         <mini-card
           image="./back4.png"
-          title="Valores"
-          cont="Honestidad <br> Consistencia <br> Eficiencia"
+          :title="$t('pilars.values')"
+          :cont="$t('pilars.valuestext')"
           />
       </div>
 
       <div class="subcont-2">
         <mini-card
           image="./back4.png"
-          title="Visión"
-          cont="Ser la empresa líder en  el desarrollo de soluciones  para las marcas más emblemáticas y queridas  de los venezolanos"
+          :title="$t('pilars.vision')"
+          :cont="$t('pilars.visiontext')"
           />
       </div>
 
@@ -60,22 +43,22 @@
     </section> 
 
     <!-- Third section -->
-    <h2 id="empresas">Empresas</h2>
+    <h2 id="empresas">{{ $t('enterprises.title') }}</h2>
     <section class="cont-3">
 
       <div class="subcont-h">
         <emp-card
           image="./berlin.png"
-          title="Berlin Consulting"
-          subtitle="Consultoría financiera y de cadena de suministro "
-          cont="- Aliado Estratégico de Empacor, S.A. (Colombia) para el desarrollo de la categoría de cartón corrugado en Venezuela.<br>- Operación integrada  verticalmente en soluciones de cartón corrugado (desarrollo y/o homologación, fabricación, importación, almacenamiento y despacho en planta)"
+          :title="$t('enterprises.enterprises.emp1.title')"
+          :subtitle="$t('enterprises.enterprises.emp1.subtitle')"
+          :cont="$t('enterprises.enterprises.emp1.text')"
           />
 
         <emp-card
           image="./baqueira.png"
-          title="Inversiones <br> Baqueria Beirit"
-          subtitle="Empresa dedicada a la importación y distribución de material de empaque (PET y sacos de polipropileno y/o fique) y pellets de polipropileno"
-          cont="- Aliado Estratégico de Esenttia (Colombia) para la distribución de polipropileno en Venezuela <br>- Aliado Estratégico de Microplast SAS (Colombia) para soluciones en  empaque PET para Venezuela"
+          :title="$t('enterprises.enterprises.emp2.title')"
+          :subtitle="$t('enterprises.enterprises.emp2.subtitle')"
+          :cont="$t('enterprises.enterprises.emp2.text')"
           />
       </div>
 
@@ -83,12 +66,14 @@
         <emp-card
           class="resp-fix"
           image="./quimiveco3.png"
-          title="Inversiones Quimiveco"
-          subtitle="Empresa dedicada a la importación y distribución de  una amplia gama de productos  químicos"
-          cont="- Régimen 4 y 7 aprobados para la importación, almacenamiento y distribución de materiales químicos restringidos <br>- Galpón habilitado para el almacenamiento de químicos restringidos"
+          :title="$t('enterprises.enterprises.emp3.title')"
+          :subtitle="$t('enterprises.enterprises.emp3.subtitle')"
+          :cont="$t('enterprises.enterprises.emp3.text')"
           />
       </div>
+
       <img class="separator" src="../../assets/img/back1.png" alt="separator">
+
     </section>
 
     <!-- Fourth section -->
@@ -118,7 +103,7 @@
           icon1="./cycle.png"
           icon2="./3.png"
           title="El Cliente"
-          cont="revisa la estructura de costos en sus diferentes departamentos:<br>- Gerencia<br> - Finanzas<br> - Auditoría"
+          cont="revisa la estructura de costos en sus diferentes departamentos:<br>• Gerencia<br> • Finanzas<br> • Auditoría"
           />
         <model-card 
           image="./back4.png"
