@@ -60,6 +60,7 @@
           :title="$t('enterprises.enterprises.emp2.title')"
           :subtitle="$t('enterprises.enterprises.emp2.subtitle')"
           :cont="$t('enterprises.enterprises.emp2.text')"
+          :fix="true"
           />
       </div>
 
@@ -324,7 +325,7 @@ export default {
     .subcont-h{
       display: flex;
       flex-direction: row;
-      align-items: baseline;
+      align-items: flex-start;
       justify-content: space-around;
       margin-bottom: 100px;
 

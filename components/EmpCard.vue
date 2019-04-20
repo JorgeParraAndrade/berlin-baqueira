@@ -1,6 +1,6 @@
 <template>
   <div class="emp-card">
-    <img :src="image" :alt="title">
+    <img :src="image" :alt="title" :style="fix ? 'padding-top: 10px;' : 'none'" >
     <h3 v-html="title"></h3>
     <h5 v-html="subtitle"></h5>
     <p v-html="cont"></p>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  props:['image','title','subtitle','cont']
+  props:['image','title','subtitle','cont','fix']
 
 }
 </script>
