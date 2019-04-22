@@ -16,17 +16,17 @@
 
   "about": {
     "title": "Solutions by air, land and sea",
-    "text": "<p><b>The Business Group Berlin Baqueira</b> has positioned itself as leader in logistics solutions and imports of raw materials in Venezuela. <b>Our portfolio</b> of products compromises corrugated cardboard, PET packaging, polypropyleneand chemicals,among others. </p><p><b>The Business Group</b> is proactive in different lines of business, with a logistics and financial arm that allows it to becompetitive on solutions by air, land and sea in <b>Venezuela</b> and <b>internationally.</b></p>"
+    "text": "<p><b>The Business Group Berlin Baqueira</b> has positioned itself as leader in logistics solutions and imports of raw materials in Venezuela. <b>Our portfolio</b> of products compromises corrugated cardboard, PET packaging, polypropylene and chemicals, among others. </p><p><b>The Business Group</b> is proactive in different lines of business, with a logistics and financial arm that allows it to become competitive on solutions by air, land and sea in <b>Venezuela</b> and <b>internationally.</b></p>"
   },
 
   "pilars":{
     "title": "Our Pillars",
     "mision": "Mission",
-    "misiontext": "We develop and execute the best solutions for the logisticsand financial challenges of the Venezuelan business community",
+    "misiontext": "We develop and execute the best solutions for the logistics and financial challenges of the Venezuelan business community",
     "values": "Values",
     "valuestext": "Honesty <br> Consistency <br> Efficiency",
     "vision": "Vision",
-    "visiontext": "To be theleading Company in the developmentof solutions for the most emblematicand beloved brands by Venezuelans"
+    "visiontext": "To be the leading Company in the development of solutions for the most emblematic and beloved brands by Venezuelans"
   },
 
   "enterprises": {
@@ -45,7 +45,7 @@
       "emp3":{
         "title":"Inversiones Quimiveco",
         "subtitle":"Company specialized in import and distribution of a broad array of chemical products",
-        "text":"• Approved permits for import, storage and distribution of restricted chemicals in Venezuela(Regime 4 and 7)<br>• Conditioned storage deposit for the appropriate handling of restricted chemicals, compliant with international standards"
+        "text":"• Approved permits for import, storage and distribution of restricted chemicals in Venezuela (Regime 4 and 7)<br>• Conditioned storage deposit for the appropriate handling of restricted chemicals, compliant with international standards"
       }
     }
   },
