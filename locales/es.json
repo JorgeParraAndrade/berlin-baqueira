@@ -63,7 +63,7 @@
       },
       "mod3":{
         "title":"El Cliente",
-        "text":"revisa la estructura de costos en sus diferentes departamentos:<br>• Gerencia<br> • Finanzas<br> • Auditoría"
+        "text":"revisa la estructura de costos en sus diferentes departamentos: <ul><li>Gerencia</li> <li>Finanzas</li> <li>Auditoría</li></ul> "
       },
       "mod4":{
         "title":"El Cliente",

@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
   .model-card{
     width: 350px;
@@ -24,6 +24,12 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    ul{
+      text-align: left !important;
+      max-width: 180px !important;
+      margin: 0 auto !important;
+    }
 
     h3{
       font-family: 'roboto-black',sans-serif;
@@ -41,8 +47,10 @@ export default {
       color: #707070;
       line-height: 1.3;
       padding: 0 20px; 
-      text-align: center;     
+      text-align: center;   
+
     }
+
 
     .number{
       margin: 20px 0 15px;

@@ -16,7 +16,7 @@
 
   "about": {
     "title": "Solutions by air, land and sea",
-    "text": "<p><b>The Business Group Berlin Baqueira</b> has positioned itself as leader in logistics solutions and imports of raw materials in Venezuela. <b>Our portfolio</b> of products compromises corrugated cardboard, PET packaging, polypropyleneand chemicals,among others. </p><p><b>The Business Group</b> s proactive in different lines of business, with a logistics and financial arm that allows it to becompetitive on solutions by air, land and sea in <b>Venezuela</b> and <b>internationally.</b></p>"
+    "text": "<p><b>The Business Group Berlin Baqueira</b> has positioned itself as leader in logistics solutions and imports of raw materials in Venezuela. <b>Our portfolio</b> of products compromises corrugated cardboard, PET packaging, polypropyleneand chemicals,among others. </p><p><b>The Business Group</b> is proactive in different lines of business, with a logistics and financial arm that allows it to becompetitive on solutions by air, land and sea in <b>Venezuela</b> and <b>internationally.</b></p>"
   },
 
   "pilars":{
@@ -63,7 +63,7 @@
       },
       "mod3":{
         "title":"The Client",
-        "text":"checks the Cost Structure in the corresponding departments:<br>• Management <br> • Finance<br> • Auditing"
+        "text":"checks the Cost Structure in the corresponding departments: <ul><li>Management</li> <li>Finance</li> <li>Auditing</li></ul>"
       },
       "mod4":{
         "title":"The Client",
@@ -92,7 +92,7 @@
 
   "manu": {
     "title": "Smart Manufacturing",
-    "text": "<p>In order to <b>improve</b> efficiency and minimize exposure to non-programmed stops of factories, weaudit productionlines inorder to plan <b>preventive maintenance</b> and manage inventoriesof sensitiveand consumablespare parts. </p><p><b>Through this initiative</b> we seek to maximize the capital return of our Clients’ long-term assets, by identifying potentialcontingencies beforethey materialize.</p>"
+    "text": "<p>In order to <b>improve</b> efficiency and minimize exposure to non-programmed stops of factories, we audit production lines inorder to plan <b>preventive maintenance</b> and manage inventories of sensitive and consumable spare parts. </p><p><b>Through this initiative</b> we seek to maximize the capital return of our Clients’ long-term assets, by identifying potential contingencies before they materialize.</p>"
   },
 
   "copy":{
