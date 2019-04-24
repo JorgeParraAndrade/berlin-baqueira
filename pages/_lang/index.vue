@@ -140,16 +140,24 @@
       <h2>{{$t('cta.title')}}</h2>
       <div class="call-action">
         <div class="row">
-          <h2>+125</h2>
-          <p>
-            {{$t('cta.text1')}}
-          </p>
+          <div class="number">
+            <h2>+125</h2>
+          </div>
+          <div class="text">
+            <p>
+              {{$t('cta.text1')}}
+            </p>
+          </div>
         </div>
         <div class="row" style="margin-bottom:0;">
-          <h2>+15</h2>
-          <p>
-            {{$t('cta.text2')}}
-          </p>
+          <div class="number">
+            <h2>+15</h2>
+          </div>
+          <div class="text">
+            <p>
+              {{$t('cta.text2')}}
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -387,9 +395,27 @@ export default {
       margin-right: auto;
       margin-left: auto;
 
+      .number{
+        width: 20%;
+      }
+
+      .text{
+        width: 78%;
+        margin-left:2%;
+      }
+
       @media (max-width:1080px){
         flex-direction: column;
         align-items: center;
+
+        .number{
+          width: auto;
+        }
+
+        .text{
+          width: auto;
+        }
+
       }
 
       h2{
